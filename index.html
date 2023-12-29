@@ -33,7 +33,7 @@
       <aside class="col-md-4 col-12 ">
         <div>
           <h3>Font</h3>
-          <select id="font" class="form-select" aria-label="Default select example">
+          <select id="font" class="form-select" aria-label="Default select example" onchange="handleChangeFont()">
             <option selected>Select font</option>
           </select>
         </div>
@@ -44,7 +44,7 @@
           </div>
           <div class="w-50">
             <label for="font_color" class="h6">Font Color</label>
-            <input type="color" class="form-control w-100 d-block " id="font_color">
+            <input type="color" class="form-control w-100 d-block " id="font_color" onchange="handleChangeFontColor()">
           </div>
         </div>
         <button class="btn btn-lg d-block w-100 btn-success" onclick="handleAddText()">Add Text</button>

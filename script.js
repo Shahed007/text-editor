@@ -2,6 +2,7 @@ const fonts = ["inter", "montserrat", "lato", "open sans", "roboto"];
 const font = document.getElementById("font");
 const textContainer = document.getElementById("text-container");
 const textFiled = document.querySelector(".text-filed");
+const FontColor = document.getElementById("font_color");
 
 let currentFiled = document.querySelector(".text-filed");
 
@@ -50,3 +51,10 @@ const handleChangeFontSize = () => {
   fontSize = parseInt(fontSizeInput.value);
   currentFiled.style.fontSize = fontSize + "px";
 };
+
+const handleChangeFontColor = () => {
+  currentFiled.style.color = FontColor.value;
+  console.log(FontColor.value);
+};
+
+
