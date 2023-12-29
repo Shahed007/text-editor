@@ -12,15 +12,15 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-  <header class="container my-5 flex-row ">
+<body style="height: 100vh;">
+  <header class="container py-5 flex-row ">
     <button class="btn btn-lg btn-primary me-4">Undo</button>
     <button class="btn btn-lg btn-secondary">Redo</button>
   </header>
 
-  <main class="container ">
-    <section class="row">
-      <div class="col-md-8 col-12  border p-4 gap-2 border-secondary text-center " style="height: 100vh;">
+  <main class="container h-100">
+    <section class="row h-100">
+      <div class="col-md-8 col-12  border p-4 gap-2 border-secondary text-center rounded-2 h-100 shadow">
         <h1 class="display-6 title">New Text</h1>
       </div>
       <aside class="col-md-4 col-12 ">
@@ -29,6 +29,16 @@
           <select id="font" class="form-select" aria-label="Default select example">
             <option selected>Select font</option>
           </select>
+        </div>
+        <div class="d-flex flex-row gap-3 align-items-center mt-3">
+          <div>
+            <label for="font_size">Font Size</label>
+            <input type="number" value="16" id="font_size" class="form-control">
+          </div>
+          <div>
+            <label for="font_color">Font Color</label>
+            <input type="color" class="form-control" id="font_color">
+          </div>
         </div>
       </aside>
     </section>

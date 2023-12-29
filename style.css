@@ -1,5 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Lato:wght@400;700&family=Montserrat:wght@400;500&family=Open+Sans:wght@400;500&family=Roboto:wght@400;500&display=swap');
+
 .title {
   border: 1px dashed #777;
   padding: 4px;
   text-transform: uppercase;
 }
+
+.inter{
+  font-family: 'Inter', sans-serif;
+}
+
+.montserrat{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.lato{
+  font-family: 'Lato', sans-serif;
+}
+
+.open_sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/* 
+
+
+
+
+
