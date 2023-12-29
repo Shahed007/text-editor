@@ -57,4 +57,7 @@ const handleChangeFontColor = () => {
   console.log(FontColor.value);
 };
 
-
+const handleChangeFont = () => {
+  currentFiled.classList.add(font.value)
+  console.log(font.value);
+};
